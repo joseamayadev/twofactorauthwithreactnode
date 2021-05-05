@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.formulario input {
+    width: 600px;
+    height: 30px;
+    margin: 10px;
+    padding-left: 20px;
+}
+
+.formulario button {
+    background: crimson;
+    color: white;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    width: 600px;
+    height: 30px;
+}
+
+button.procesando {
+    background-color: rgb(4, 121, 115);
+    transform: scale(1.2);
+}
+
+p.contador {
+    text-align: center;
+    padding: 4px;
+}
+
+button.nada {
+    transition: 1s;
+}
